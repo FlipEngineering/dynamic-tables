@@ -1,0 +1,38 @@
+{
+  "name": "dynamic_tables_test1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@tanstack/match-sorter-utils": "^8.19.4",
+    "@tanstack/react-table": "^8.21.2",
+    "@types/react-modal": "^3.16.3",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-modal": "^3.16.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^14.3.1",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
